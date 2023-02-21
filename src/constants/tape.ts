@@ -1,0 +1,33 @@
+export const TapeData = [
+    {id: 1, title: "Development"},
+    {id: 2, title: "Finance & Accouting"},
+    {id: 3, title: "IT & Software"},
+    {id: 4, title: "Office Productivity"},
+    {id: 5, title: "Personal Development"},
+    {id: 6, title: "Design"},
+    {id: 7, title: "Finance & Accouting"},
+    {id: 8, title: "Office Productivity"},
+    {id: 9, title: "Personal Development"},
+    {id: 10, title: "Development"},
+    {id: 11, title: "Development"},
+    {id: 12, title: "Finance & Accouting"},
+    {id: 13, title: "IT & Software"},
+    {id: 14, title: "Office Productivity"},
+    {id: 15, title: "Personal Development"},
+    {id: 16, title: "Design"},
+    {id: 17, title: "Finance & Accouting"},
+    {id: 18, title: "Office Productivity"},
+    {id: 19, title: "Personal Development"},
+    {id: 20, title: "Development"},
+];
+
+export const TapeTopicData = [
+    {id: 1, title: "JavaScript"},
+    {id: 2, title: "React JS"},
+    {id: 3, title: "CSS"},
+    {id: 4, title: "Angular"},
+    {id: 5, title: "Node.Js"},
+    {id: 6, title: "Typescript"},
+    {id: 7, title: "PHP"},
+    {id: 8, title: "HTML5"},
+];

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Lato Regular";
+        font-weight: 400;
+        font-style: normal;
+        src: url("assets/fonts/Lato-Regular.woff2") format("woff2"), url("assets/fonts/Lato-Regular.woff") format("woff"), url("assets/fonts/Lato-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Lato Medium";
+        font-weight: 500;
+        font-style: normal;
+        src: url("assets/fonts/Lato-Medium.woff2") format("truetype"), url("assets/fonts/Lato-Medium.woff") format("woff"), url("assets/fonts/Lato-Medium.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Lato SemiBold";
+        font-weight: 600;
+        font-style: normal;
+        src: url("assets/fonts/Lato-SemiBold.woff2") format("woff2"), url("assets/fonts/Lato-SemiBold.woff") format("woff"), url("assets/fonts/Lato-SemiBold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Lato Bold";
+        font-weight: 700;
+        font-style: normal;
+        src: url("assets/fonts/Lato-Bold.woff2") format("woff2"), url("assets/fonts/Lato-Bold.woff") format("woff"), url("assets/fonts/Lato-Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Lato ExtraBold";
+        font-weight: 800;
+        font-style: normal;
+        src: url("assets/fonts/Lato-ExtraBold.woff2") format("woff2"), url("assets/fonts/Lato-ExtraBold.woff") format("woff"), url("assets/fonts/Lato-ExtraBold.ttf") format("truetype");
+    }
+
+    html {
+        font-size: 62.5%;
+        line-height: 1;
+    }
+
+    body {
+        width: 100vw;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    #root {
+        min-height: inherit;
+    }
+
+    body.modal_open {
+        overflow: hidden;
+    }
+}
+
+@layer utilities {
+    .clip-polygon-loader {
+        clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 50%);
+    }
+}
